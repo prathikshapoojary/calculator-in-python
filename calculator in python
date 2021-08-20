@@ -1,0 +1,21 @@
+num1 = int(input("Enter the first number :"))
+num2 = int(input("Enter the second number :"))
+
+def add():
+    print("Additon of ",num1," and ",num2," is :",num1+num2)
+
+
+def sub():
+    print("Subtraction of ",num1," and ",num2," is :",num1-num2)
+
+
+def mul():
+    print("Multiplication of ",num1," and ",num2," is :",num1*num2)
+
+def mod():
+    print("Mode of ",num1," and ",num2," is :",num1%num2)
+
+add()
+mod()
+mul()
+sub()
